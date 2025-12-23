@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int rain;
+    printf("Enter 1 if raining else 0: ");
+    scanf("%d", &rain);
+
+    if (rain)
+        printf("Rain alert!");
+    else
+        printf("No rain");
+    return 0;
+}
